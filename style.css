@@ -1,0 +1,88 @@
+body,html{
+    height:100%;
+    margin:0px;
+    font-family: 'Asap', sans-serif;
+  
+}
+
+.bg{
+    background-image:url(zLight-Grey-Background.jpg) ;
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewer{
+    height: 550px;
+    width:800px;
+    background:white;
+    box-shadow: 0px 0px 12px 4px #444444;
+    display:flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.center{
+    height:inherit;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    height:inherit;
+    
+
+}
+
+.pic{
+    height:inherit; 
+}
+
+.title{
+    background:#4444448a;
+    z-index: 1;
+    
+    width:inherit;
+    position:relative;
+    padding:15px;
+    height:100px;
+    bottom:134px;
+    
+}
+
+h1{
+    margin: 0px;
+    color:white;  
+}
+
+p{
+    margin: 0px;
+    color:white;
+}
+
+.side{
+    height: inherit;
+    width:80px;
+    background:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    width:20px;
+    height:20px;
+    position:relative;
+    
+}
+
+.arrowLeft{
+    transform:rotate(0.5turn);
+}
