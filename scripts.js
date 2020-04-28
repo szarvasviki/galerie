@@ -63,11 +63,30 @@ let loadPhoto = (photoNumber) => {
 loadPhoto(currentPhoto);
 
 $('.arrowRigth').click(() => {
-    currentPhoto++;
+    console.log(currentPhoto)
+    if (currentPhoto>=datas.length-1) { 
+        console.log("setcurrent to 0");
+        currentPhoto=0;
+    }
+    else {
+        currentPhoto++;
+    } 
+    
     loadPhoto(currentPhoto);
+    
   });
 
   $('.arrowLeft').click(() => {
-    currentPhoto--;
+    
+    if (currentPhoto<=0) { 
+        currentPhoto=datas.length-1;
+    }
+    else {
+        currentPhoto--;
+    } 
     loadPhoto(currentPhoto);
   });
+
+
+  
+ 
